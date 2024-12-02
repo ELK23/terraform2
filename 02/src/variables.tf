@@ -68,8 +68,8 @@ variable "metadata" {
 
 ###ssh vars
 
-variable "vms_ssh_root_key" {
-  type        = string
-  default     = "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEAh4Gh5PrknxcjYhoqsLGxGJo6KF+SdTSTlN3gaU94M7y6FlaDzoSMHMWc1HG02R+kDXHl3heUWHdZFoevpwE/z598fdo/CLMVBAPT7eKqDEmco29s4/cEtm+Z7PddTVoXrfZEnCOlsbe3MTrRuAihOwiVQMKwPK4Oi127TiV6BHxHhevyr91nGQQF9FFYh/q6zxka128cw7XTZbz/DwdmIZB+WUHWGKZueJ2FCa2rN8TM6z1mwW6WBXiZg7n20d6jQXT3SmKgPsRmFmr90mwga1xg7YO7LWbZbDxmg5O3aUrx4EU/nMb2x+bWI3V6POrfOTH53lb/WtVZoppxBzA3TQ== rsa-key-20241130"
-  description = "ssh-keygen -t ed25519"
-}
+#variable "vms_ssh_root_key" {
+#  type        = string
+#  default     = "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEAh4Gh5PrknxcjYhoqsLGxGJo6KF+SdTSTlN3gaU94M7y6FlaDzoSMHMWc1HG02R+kDXHl3heUWHdZFoevpwE/z598fdo/CLMVBAPT7eKqDEmco29s4/cEtm+Z7PddTVoXrfZEnCOlsbe3MTrRuAihOwiVQMKwPK4Oi127TiV6BHxHhevyr91nGQQF9FFYh/q6zxka128cw7XTZbz/DwdmIZB+WUHWGKZueJ2FCa2rN8TM6z1mwW6WBXiZg7n20d6jQXT3SmKgPsRmFmr90mwga1xg7YO7LWbZbDxmg5O3aUrx4EU/nMb2x+bWI3V6POrfOTH53lb/WtVZoppxBzA3TQ== rsa-key-20241130"
+#  description = "ssh-keygen -t ed25519"
+#}

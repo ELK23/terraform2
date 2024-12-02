@@ -10,23 +10,23 @@ variable "vm_web_image_family" {
   description = "Family of the base image"
 }
 
-variable "vm_web_cores" {
-  type        = number
-  default     = 2
-  description = "Number of CPU cores for the VM"
-}
+#variable "vm_web_cores" {
+#  type        = number
+#  default     = 2
+#  description = "Number of CPU cores for the VM"
+#}
 
-variable "vm_web_memory" {
-  type        = number
-  default     = 1
-  description = "Memory size (in GB) for the VM"
-}
+#variable "vm_web_memory" {
+#  type        = number
+#  default     = 1
+#  description = "Memory size (in GB) for the VM"
+#}
 
-variable "vm_web_core_fraction" {
-  type        = number
-  default     = 5
-  description = "Core fraction for the VM"
-}
+#variable "vm_web_core_fraction" {
+#  type        = number
+#  default     = 5
+#  description = "Core fraction for the VM"
+#}
 
 variable "vm_web_preemptible" {
   type        = bool
@@ -47,23 +47,23 @@ variable "vm_db_name" {
   description = "Name of the Platform DB VM instance"
 }
 
-variable "vm_db_cores" {
-  type        = number
-  default     = 2
-  description = "Number of CPU cores for Platform DB VM"
-}
+#variable "vm_db_cores" {
+#  type        = number
+#  default     = 2
+#  description = "Number of CPU cores for Platform DB VM"
+#}
 
-variable "vm_db_memory" {
-  type        = number
-  default     = 2
-  description = "Memory size (in GB) for Platform DB VM"
-}
+#variable "vm_db_memory" {
+#  type        = number
+#  default     = 2
+#  description = "Memory size (in GB) for Platform DB VM"
+#}
 
-variable "vm_db_core_fraction" {
-  type        = number
-  default     = 20
-  description = "Core fraction for Platform DB VM"
-}
+#variable "vm_db_core_fraction" {
+#  type        = number
+#  default     = 20
+#  description = "Core fraction for Platform DB VM"
+#}
 
 variable "vm_db_zone" {
   type        = string
